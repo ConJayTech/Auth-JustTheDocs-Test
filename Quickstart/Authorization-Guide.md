@@ -13,8 +13,7 @@ Sign up for an account by providing an email address and desired password with t
 
 `POST` /api/v3/ua/sign-up
 
-POST
-{: .label .label-green}/api/v3/ua/sign-up
+POST{: .label .label-green}/api/v3/ua/sign-up
 
 POST
 {: .label .label-green}
@@ -22,9 +21,7 @@ POST
 
 
 {: . highlight}
-> POST
-> {: .label .label-green}
-> /api/v3/ua/sign-up
+POST{: .label .label-green}/api/v3/ua/sign-up
 
 \
 **Header Parameters**
