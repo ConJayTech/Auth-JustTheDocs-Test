@@ -13,30 +13,40 @@ Sign up for an account by providing an email address and desired password with t
 
 `POST` /api/v3/ua/sign-up
 
-POST{: .label .label-green}/api/v3/ua/sign-up
+POST{: .label .label-green} /api/v3/ua/sign-up
 
-POST
-{: .label .label-green}
+POST{: .label .label-green}
 /api/v3/ua/sign-up
 
 
 {: . highlight}
-POST{: .label .label-green}/api/v3/ua/sign-up
+POST{: .label .label-green} /api/v3/ua/sign-up
 
 \
 **Header Parameters**
+---
 
-| Property | Type | Description |
-| ---- | ---- | --- |
-| `Authorization` | string [required] | Basic |
+**Authorization** `string` `header` `required`
+
+Basic API key
 
 \
-**Request Body Schema: application/json**
+**Body**
+---
 
-| Property | Type | Description |
-| ---- | ---- | --- |
-| `email` | string [required] | Email address of user |
-| `password` | string [required] | Desired password of user |
+**email** `string` `required`
+
+Email address of user
+
+---
+
+**password** `string` `required`
+
+Desired password for user
+
+---
+
+
 
 \
 Request Sample
