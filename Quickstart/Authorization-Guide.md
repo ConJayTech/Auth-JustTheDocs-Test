@@ -13,19 +13,16 @@ Sign up for an account by providing an email address and desired password with t
 
 <span class="badge badge--warning">POST</span> /api/v3/ua/sign-up
 
+---
+### Header Parameters
 
-Header Parameters
----
----
 
 **Authorization** `string` `header` `required`
 
 Basic API key
 
-
-Body
 ---
----
+### Body
 
 **email** `string` `required`
 
