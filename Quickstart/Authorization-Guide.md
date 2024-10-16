@@ -1,3 +1,8 @@
+---
+title: Authorization
+layout: home
+---
+
 # Sign Up and Authentication Quickstart Guide
 
 To gain access to IQM's API and its services, first the user must sign up and log in to obtain the authentication required to send requests.
