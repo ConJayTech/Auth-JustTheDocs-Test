@@ -13,15 +13,12 @@ Sign up for an account by providing an email address and desired password with t
 
 `POST` /api/v3/ua/sign-up
 
-{: .label .label-yellow}
-POST
-
-/api/v3/ua/sign-up
+POST {: .label label-yellow} /api/v3/ua/sign-up
 
 ---
 ## Header Parameters
 
-
+\
 **Authorization** `string` `header` `required`
 
 Basic API key
@@ -29,13 +26,14 @@ Basic API key
 ---
 ## Body
 
-**email** {: .fs-3}`string` `required`
+\
+**email** `string` `required`
 
 Email address of user
 
 ---
 
-**password** {: .fw-300}`string` `required`
+**password** `string` `required`
 
 Desired password for user
 
