@@ -1,6 +1,5 @@
 ---
 title: Authorization
-layout: default
 ---
 
 # Sign Up and Authentication Quickstart Guide
