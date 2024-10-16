@@ -17,26 +17,25 @@ Sign up for an account by providing an email address and desired password with t
 ### Header Parameters
 
 
-**Authorization** `string` `header` `required`
+<text className="code-text">**Authorization**</text> <text className="type-text">string | header | required</text> 
 
 Basic API key
 
 ---
 ### Body
 
-**email** `string` `required`
+
+<text className="code-text">**email**</text>  <text className="type-text">string | required</text> 
 
 Email address of user
 
 ---
 
-**password** `string` `required`
+<text className="code-text">**password**</text> <text className="type-text">string | required</text> 
 
 Desired password for user
 
 ---
-
-
 
 \
 Request Sample
