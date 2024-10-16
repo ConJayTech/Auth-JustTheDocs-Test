@@ -13,18 +13,17 @@ Sign up for an account by providing an email address and desired password with t
 
 `POST` /api/v3/ua/sign-up
 
-POST{: .label .label-green} /api/v3/ua/sign-up
+POST {: .label .label-green} /api/v3/ua/sign-up
 
 POST{: .label .label-green}
 /api/v3/ua/sign-up
 
 
 {: . highlight}
-POST{: .label .label-green} /api/v3/ua/sign-up
+POST {: .label .label-green} /api/v3/ua/sign-up
 
 
-### Header Parameters
-
+HEADER PARAMETERS
 ---
 
 **Authorization** `string` `header` `required`
@@ -32,7 +31,7 @@ POST{: .label .label-green} /api/v3/ua/sign-up
 Basic API key
 
 
-### Body
+BODY
 ---
 
 **email** `string` `required`
