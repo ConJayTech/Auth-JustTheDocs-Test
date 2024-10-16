@@ -11,31 +11,30 @@ To gain access to IQM's API and its services, first the user must sign up and lo
 
 Sign up for an account by providing an email address and desired password with the following endpoint:
 
-POST /api/v3/ua/sign-up
+`POST` /api/v3/ua/sign-up
 
 {: .label .label-yellow}
 POST
 /api/v3/ua/sign-up
 
 ---
-### Header Parameters
+## Header Parameters
 
 
-<text className="code-text">**Authorization**</text> <text className="type-text">string | header | required</text> 
+**Authorization** string | header | required
 
 Basic API key
 
 ---
-### Body
+## Body
 
-
-<text className="code-text">**email**</text>  <text className="type-text">string | required</text> 
+**email** {: .fs-3}string | required
 
 Email address of user
 
 ---
 
-<text className="code-text">**password**</text> <text className="type-text">string | required</text> 
+**password** {: .fw-300}string | required
 
 Desired password for user
 
