@@ -22,16 +22,17 @@ POST{: .label .label-green}
 {: . highlight}
 POST{: .label .label-green} /api/v3/ua/sign-up
 
-\
-**Header Parameters**
+
+### Header Parameters
+
 ---
 
 **Authorization** `string` `header` `required`
 
 Basic API key
 
-\
-**Body**
+
+### Body
 ---
 
 **email** `string` `required`
