@@ -1,6 +1,5 @@
 ---
 title: Authorization
-layout: default
 ---
 
 # Sign Up and Authentication Quickstart Guide
@@ -33,8 +32,8 @@ Request Sample
 
 ```json
 {
-"email": "user1@iqm.com",
-"password": "123456"
+    "email": "user1@iqm.com",
+    "password": "123456"
 }
 ```
 
